@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(243, 248, 222);
+}
+
+.Fundo{
+    background-color:rgb(131, 164, 224);
+                border-radius: 20px;
+                position: relative;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                width: 35dvh;
+                height: 40vh;
+}
+
+.Forms{
+    background-color:beige;
+    padding: -10px;
+                border-radius: 10px;
+                position: absolute;
+                    display: grid;
+                    grid-template-columns: auto;
+                    grid-template-rows: 100px 100px;
+                    grid-auto-rows: 100px;
+                justify-content:center;
+                align-content: center;
+                width: 25dvh;
+                height: 30vh;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+p{
+    text-align: center;
+    font-family: cursive;
+}
+
+
+form{
+    position: relative;
+    font-family: cursive;
+    font-size:small;
+    bottom: 25%;
+}
+input[type="submit"] {
+    position: relative;
+    left: 35%;
+}
