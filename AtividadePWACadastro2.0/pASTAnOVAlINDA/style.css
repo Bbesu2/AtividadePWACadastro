@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(243, 248, 222);
+}
+
+.janela{
+    background-color:rgb(131, 164, 224);
+                border-radius: 20px;
+                position: absolute;
+                left: 75dvh;
+                top: 25dvh;
+                display: grid;
+                grid-template-rows:100px;
+
+                width: 50dvh;
+                height: 30vh;
+}
+
+.botaoestilo{
+    display: grid;
+    grid-template-rows: 20px, 20px;
+    grid-template-columns: 20%, 20%;
+}
+
+button{
+    background-color:rgb(179, 204, 252);
+}
+a{
+    color: chocolate;
+    font-size: 30px;
+    font-family: cursive ;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(109, 54, 15);
+    font-size: 30px;
+    font-family: cursive ;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+form{
+    position: relative;
+    font-family: cursive;
+    font-size:small;
+    bottom: 25%;
+}
